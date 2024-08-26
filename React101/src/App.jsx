@@ -15,7 +15,12 @@
 // useState() = A React hook that allows the creation of a stateful variable AND a setterfunction to update its value in the Virtual DOM. [name, setName]
 // import Counter from './Counter.jsx'
 // import MyComponent from './MyComponent.jsx'
-import Counter from './Counter.jsx'
+//import Counter from './Counter.jsx'
+//onChange = event handler used primarily with from elements . ex. <input>, <textarea>, <select>, <radio> . Triggers a function every time the value of the input changes
+// import MyComponentOnChange from './MyComponentOnChange.jsx'
+// COLOR PICKER APP
+import ColorPicker from './ColorPicker.jsx'
+
 function App() {
  /* const fruits = [{id: 1, name :"apple" , calories: 95},
     {id: 2, name :"orange", calories: 110},
@@ -47,7 +52,7 @@ return(
 return(
   <>
 
-<Counter/>
+<ColorPicker/>
   </>
 
 );
