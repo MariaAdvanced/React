@@ -19,8 +19,9 @@
 //onChange = event handler used primarily with from elements . ex. <input>, <textarea>, <select>, <radio> . Triggers a function every time the value of the input changes
 // import MyComponentOnChange from './MyComponentOnChange.jsx'
 // COLOR PICKER APP
-import ColorPicker from './ColorPicker.jsx'
-
+//import ColorPicker from './ColorPicker.jsx'
+// import UpdaterFunctions from './UpdaterFunctions.jsx'
+import UpdateObjectsInState from './UpdateObjectsInState.jsx'
 function App() {
  /* const fruits = [{id: 1, name :"apple" , calories: 95},
     {id: 2, name :"orange", calories: 110},
@@ -52,7 +53,7 @@ return(
 return(
   <>
 
-<ColorPicker/>
+<UpdateObjectsInState/>
   </>
 
 );

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 function MyComponentOnChange(){
    const [name, setName] = useState("Guest");
    const [quantity, setQuantity] = useState(1);
